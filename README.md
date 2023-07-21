@@ -1,2 +1,10 @@
-
+En este README, se presentan capturas de unos  ejemplos de páginas del proyecto para resaltar y demostrar su funcionalidad principal. Estas capturas proporcionan una visión práctica y concisa de cómo se implementan ciertas características.
+![image](https://github.com/hectorayam/Stock/assets/74029848/c695d942-7249-4d1a-acf0-f46ebffff0ad)
+![image](https://github.com/hectorayam/Stock/assets/74029848/fd6d01a5-4473-4ee8-bf03-4f0d1dab478d)
 ![image](https://github.com/hectorayam/Stock/assets/74029848/570b5232-4df8-49c6-a58b-2c0db821e1e8)
+![image](https://github.com/hectorayam/Stock/assets/74029848/12cc4c22-acd8-41c9-8735-299539b9b389)
+![image](https://github.com/hectorayam/Stock/assets/74029848/71b42477-dbf5-418c-a838-93f162925dcf)
+![image](https://github.com/hectorayam/Stock/assets/74029848/8fc3727a-9e2d-4030-a82d-81e80decfe0a)
+![image](https://github.com/hectorayam/Stock/assets/74029848/7973def4-b584-43ec-a4b3-ba7fb248fe95)
+![image](https://github.com/hectorayam/Stock/assets/74029848/cfc97a5a-0b3a-498a-8845-cf26552b9749)
+![image](https://github.com/hectorayam/Stock/assets/74029848/55fbe56d-090c-41d4-b9dd-a00133383ffd)
