@@ -32,7 +32,7 @@ class ProductController extends Controller
             'sku.required'=> 'El campo sku no debe estar vacio',
             'nombre_producto.required'=> 'El campo nombre del producto  no debe estar vacio',
             'precio.required'=> 'El campo precio  no debe estar vacio',
-            'sku.numeric'=> 'SKU no permite letras',
+            'sku.regex'=> 'SKU no permite letras',
             'sku.max'=> 'SKU solo permite 4 carateres como maximo',
             'nombre_producto.max'=> 'Nombre del producto solo permite 60 carateres como maximo',
             'cantidad.min'=> 'Debe haber por lo menos 1 producto en stock',
@@ -73,16 +73,16 @@ class ProductController extends Controller
     
     public function update(Request $request, Product $product){
         $request->validate([
-            'sku' => 'required',
-            'nombre_producto' => 'required',
-            'cantidad' => 'required',
-            'precio' => 'required',
+           'sku' => 'required|max:4|regex:/^[0-9\-]+$/',
+            'nombre_producto' => 'required|max:60',
+            'cantidad' => 'min:1|max:999999',
+            'precio' => 'required|numeric|min:0.01|max:999999',
 
         ],[
             'sku.required'=> 'El campo sku no debe estar vacio',
             'nombre_producto.required'=> 'El campo nombre del producto  no debe estar vacio',
             'precio.required'=> 'El campo precio  no debe estar vacio',
-            'sku.numeric'=> 'SKU no permite letras',
+            'sku.regex'=> 'SKU no permite letras',
             'sku.max'=> 'SKU solo permite 4 carateres como maximo',
             'nombre_producto.max'=> 'Nombre del producto solo permite 60 carateres como maximo',
             'cantidad.min'=> 'Debe haber por lo menos 1 producto en stock',
