@@ -23,7 +23,7 @@ class ProductController extends Controller
 
     public function store(Request $request){
         $request->validate([
-            'sku' => 'required|max:4|numeric',
+            'sku' => 'required|max:4|regex:/^[0-9\-]+$/',
             'nombre_producto' => 'required|max:60',
             'cantidad' => 'min:1|max:999999',
             'precio' => 'required|numeric|min:0.01|max:999999',
